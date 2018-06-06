@@ -1,0 +1,15 @@
+
+h2{
+    font-family: 'Simplifica';
+    font-size: 40px;
+    margin-top:20px;
+}
+.contact-form input, textarea, button{
+  margin-top: 30px;
+  width:80% !important;
+}
+
+.contact-form textarea{
+  height:200px;
+  resize: none;
+}

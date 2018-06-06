@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Simplifica';
+    src:url('Simplifica.ttf.woff') format('woff'),
+        url('Simplifica.ttf.svg#Simplifica') format('svg'),
+        url('Simplifica.ttf.eot'),
+        url('Simplifica.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  border-left: 1px solid black;
+  height:90vh;
+  margin-top:30px;
+}
+nav img{
+  max-width:100%;
+}
+.menu-space{
+  margin-top:10%;
+}
+
+nav ul li{
+  list-style: none!important;
+  font-family: 'Simplifica';
+  font-size: 20px;
+}
+nav ul li ul li{
+  list-style: none!important;
+  font-family: 'Simplifica';
+  font-size: 16px !important;
+}
+nav .social-media{
+  padding: 5px;
+}
+
+.menu-btn{
+  width: 100% !important;
+}
+/*  hover effect for menu */
+.li-hover {
+    display: inline-block !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.li-hover::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.li-hover:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+@media only screen and (min-width : 320px) {
+
+}
+@media only screen and (max-width : 768px) {
+.menu-tablet{
+  display: inline-block;
+}
+  body{
+    border-left: none;
+  }
+  nav input, textarea, button {
+      margin-top: 15px !important;
+      width: 100% !important;
+  }
+  .navbar-brand{
+    margin-right: 0 !important;
+  }
+    nav ul li ul li{
+      font-size: 18px !important;
+    }
+    nav ul li{
+      font-size: 22px!important;
+    }
+}

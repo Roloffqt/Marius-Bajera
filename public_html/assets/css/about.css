@@ -1,0 +1,18 @@
+.page-title{
+font-size:30px;
+}
+.about-text{
+  font-size:16px;
+}
+
+.Artist-info{
+      font-family: 'Simplifica';
+      font-size:18px;
+      list-style: none;
+}
+.profile-image{
+max-width: 100%;
+float:left;
+margin-top: 5%;
+margin-bottom: 5%;
+}
